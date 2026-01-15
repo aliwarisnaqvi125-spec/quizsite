@@ -12,6 +12,7 @@ export default function Header() {
                     <Link href="/">Home</Link>
                     <Link href="/quiz">Skin Quiz</Link>
                     <Link href="/blog">Blog</Link>
+                    <Link href="/treatments">Treatments</Link>
                     <Link href="/results">Results</Link>
                     <Link href="/about">About</Link>
                 </nav>
