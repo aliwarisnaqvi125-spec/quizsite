@@ -1,27 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  /* Premium/Health Color Palette */
+  --background: #fdfbf7;
+  /* Off-white/Cream */
+  --foreground: #2d2a26;
+  /* Soft Dark Gray */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  --primary: #d4a373;
+  /* Golden/Beige - Earthy tone */
+  --primary-hover: #faedcd;
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
+  --secondary: #ccd5ae;
+  /* Soft Green */
+  --secondary-hover: #e9edc9;
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --accent: #e5989b;
+  /* Dusty Rose/Pink for flow calculation or accents */
+  --accent-light: #ffb4a2;
+
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+
+  --radius: 8px;
+  --header-height: 70px;
+  --max-width: 1200px;
 }
 
 * {
@@ -30,13 +33,89 @@ body {
   margin: 0;
 }
 
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--radius);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  font-family: var(--font-sans);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #b08968;
+}
+
+.btn-secondary {
+  background: var(--secondary);
+  color: #333;
+}
+
+.btn-outline {
+  border: 1px solid var(--foreground);
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: var(--foreground);
+  color: var(--background);
+}
+
+/* Utils */
+.text-center {
+  text-align: center;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.py-5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Effects */
+.glow-text {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
