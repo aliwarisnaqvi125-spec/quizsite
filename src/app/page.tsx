@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import AdBanner from '@/components/AdBanner';
+import JuicyAdsScript from '@/components/JuicyAdsScript';
+import JuicyAdsMain from '@/components/JuicyAdsMain';
 import ArticleCard from '@/components/ArticleCard';
 import styles from './page.module.css';
 
@@ -55,8 +57,12 @@ export default function Home() {
       </section>
 
       {/* Banner Ad */}
-      <section className="container mb-2">
-        <AdBanner size="leaderboard" />
+      <section className="container mb-2 text-center">
+        <JuicyAdsScript />
+      </section>
+
+      <section className="container mb-4 text-center">
+        <JuicyAdsMain />
       </section>
 
       {/* Quiz Teaser */}

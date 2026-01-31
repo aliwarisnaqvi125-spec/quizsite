@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import styles from './page.module.css';
+import JuicyAdsMain from '@/components/JuicyAdsMain';
 
 export default function AboutPage() {
     const [formData, setFormData] = useState({
@@ -29,6 +30,8 @@ export default function AboutPage() {
                     a journey, not a destination.
                 </p>
             </div>
+
+            <JuicyAdsMain />
 
             <div className={styles.contactSection}>
                 <div className={styles.contactInfo}>

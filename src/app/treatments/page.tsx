@@ -1,4 +1,5 @@
 import styles from './page.module.css';
+import JuicyAdsMain from '@/components/JuicyAdsMain';
 
 export default function TreatmentsPage() {
     const doctors = [
@@ -31,6 +32,8 @@ export default function TreatmentsPage() {
                 <h1>Expert Treatments</h1>
                 <p>Meet our experienced dermatologists dedicated to your skin health</p>
             </div>
+
+            <JuicyAdsMain />
 
             <div className={styles.doctorGrid}>
                 {doctors.map((doctor, index) => (
