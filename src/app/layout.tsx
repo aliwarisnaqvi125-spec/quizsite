@@ -19,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="juicyads-site-verification" content="f0e0bd18b8d36ec50493d37ede27e75e" />
         <Script id="adsterra-options" strategy="beforeInteractive">
           {`
             var atOptions = {
