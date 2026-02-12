@@ -22,6 +22,12 @@ export default function RootLayout({
         <meta name="monetag" content="bb88b549019ec6b72bd70e0c8b0d8ac9" />
       </head>
       <body>
+        <Script
+          src="https://quge5.com/88/tag.min.js"
+          data-zone="210642"
+          data-cfasync="false"
+          strategy="afterInteractive"
+        />
         <Header />
         <main style={{ minHeight: 'calc(100vh - 300px)' }}>
           {children}
