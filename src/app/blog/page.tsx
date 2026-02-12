@@ -10,6 +10,13 @@ export default function BlogPage() {
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '2rem' }}>
                 <ArticleCard
+                    title="Beyond Anti-Aging: Skin Longevity in 2026"
+                    excerpt="The US skincare market is pivoting from fixing damage to biological longevity. Explore how exosomes and NAD+ are redefining American skincare."
+                    slug="skin-longevity-2026"
+                    category="Innovation"
+                    image="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80"
+                />
+                <ArticleCard
                     title="Winter Skincare Survival Guide"
                     excerpt="Dry skin? Discover the best ingredients to lock in moisture during the cold months."
                     slug="winter-skincare"

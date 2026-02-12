@@ -24,11 +24,18 @@ export default function Home() {
       {/* Featured Articles Section */}
       <section className="container py-5">
         <div className="text-center mb-2">
-          <h2 className={styles.sectionTitle}>Seasonal Care Essentials</h2>
-          <p>Curated tips for maintaining healthy skin year-round.</p>
+          <h2 className={styles.sectionTitle}>Expert Skincare Insights</h2>
+          <p>The latest in regenerative aesthetics and personalized care.</p>
         </div>
 
         <div className={styles.grid}>
+          <ArticleCard
+            title="Beyond Anti-Aging: Skin Longevity in 2026"
+            excerpt="The US skincare market is pivoting from fixing damage to regional biological longevity."
+            slug="skin-longevity-2026"
+            category="Innovation"
+            image="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80"
+          />
           <ArticleCard
             title="Winter Skincare Survival Guide"
             excerpt="Dry skin? Discover the best ingredients to lock in moisture during the cold months."
