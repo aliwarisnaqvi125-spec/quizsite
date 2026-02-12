@@ -1,5 +1,4 @@
 import ArticleCard from '@/components/ArticleCard';
-import AdBanner from '@/components/AdBanner';
 
 export default function BlogPage() {
     return (
@@ -45,10 +44,6 @@ export default function BlogPage() {
                     category="Expert Tips"
                     image="/images/blog/routine.png"
                 />
-                {/* Ad interspersed */}
-                <div style={{ gridColumn: '1 / -1', margin: '2rem 0' }}>
-                    <AdBanner size="leaderboard" />
-                </div>
             </div>
         </div>
     );

@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import AdBanner from '@/components/AdBanner';
 import ArticleCard from '@/components/ArticleCard';
 import styles from './page.module.css';
 

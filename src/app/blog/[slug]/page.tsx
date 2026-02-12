@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import AdBanner from '@/components/AdBanner';
 
 export default function BlogPost({ params }: { params: { slug: string } }) {
     // In a real app, fetch data based on params.slug
@@ -15,7 +14,6 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
                 <p style={{ opacity: 0.7 }}>By Dr. Glow • January 15, 2026</p>
             </header>
 
-            <AdBanner size="leaderboard" className="mb-2" />
 
             <div style={{ fontSize: '1.1rem', lineHeight: '1.8' }}>
                 <p className="mb-1">

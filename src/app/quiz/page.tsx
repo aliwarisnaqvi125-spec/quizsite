@@ -1,5 +1,4 @@
 import Quiz from '@/components/Quiz';
-import AdBanner from '@/components/AdBanner';
 
 export default function QuizPage() {
     return (
@@ -12,9 +11,6 @@ export default function QuizPage() {
 
             <Quiz />
 
-            <div style={{ marginTop: '4rem' }}>
-                <AdBanner size="leaderboard" />
-            </div>
         </div>
     );
 }
