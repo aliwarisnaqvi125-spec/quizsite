@@ -1,6 +1,5 @@
 import Quiz from '@/components/Quiz';
 import AdBanner from '@/components/AdBanner';
-import JuicyAdsMain from '@/components/JuicyAdsMain';
 
 export default function QuizPage() {
     return (
@@ -10,7 +9,6 @@ export default function QuizPage() {
                 <p>Answer a few simple questions to get personalized expert advice.</p>
             </div>
 
-            <JuicyAdsMain />
 
             <Quiz />
 

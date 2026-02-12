@@ -3,8 +3,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import JuicyAdsFloating from "@/components/JuicyAdsFloating";
-import JuicyAdsHeader from "@/components/JuicyAdsHeader";
 import Script from "next/script";
 
 
@@ -21,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="juicyads-site-verification" content="f0e0bd18b8d36ec50493d37ede27e75e" />
+        <meta name="monetag" content="bb88b549019ec6b72bd70e0c8b0d8ac9" />
         <Script id="adsterra-options" strategy="beforeInteractive">
           {`
             var atOptions = {
@@ -54,12 +52,10 @@ export default function RootLayout({
           src="https://www.highperformanceformat.com/659f559181940b6047f12a9941cd6a04/invoke.js"
         />
         <Header />
-        <JuicyAdsHeader />
         <Script src="https://pl28567852.effectivegatecpm.com/b0/95/73/b0957304a0eb75e1bae85d43c6978518.js" />
         <main style={{ minHeight: 'calc(100vh - 300px)' }}>
           {children}
         </main>
-        <JuicyAdsFloating />
         <Footer />
       </body>
     </html>

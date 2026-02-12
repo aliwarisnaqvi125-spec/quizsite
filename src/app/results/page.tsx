@@ -1,5 +1,4 @@
 import styles from './page.module.css';
-import JuicyAdsMain from '@/components/JuicyAdsMain';
 
 export default function ResultsPage() {
     const skinTypes = [
@@ -36,7 +35,6 @@ export default function ResultsPage() {
                 <p>Understanding different skin types and their unique care requirements.</p>
             </div>
 
-            <JuicyAdsMain />
 
             <div className={styles.gallery}>
                 {skinTypes.map((skin, index) => (
