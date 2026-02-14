@@ -19,12 +19,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="monetag" content="bb88b549019ec6b72bd70e0c8b0d8ac9" />
       </head>
       <body>
         <Script
           src="https://quge5.com/88/tag.min.js"
-          data-zone="210642"
+          data-zone="211263"
+          async
           data-cfasync="false"
           strategy="afterInteractive"
         />
@@ -34,6 +34,6 @@ export default function RootLayout({
         </main>
         <Footer />
       </body>
-    </html>
+    </html >
   );
 }
