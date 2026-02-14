@@ -9,6 +9,9 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Lumina Skin | Glow Inside Out",
   description: "Your expert guide to seasonal skincare and glowing health.",
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
