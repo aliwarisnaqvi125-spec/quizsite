@@ -51,6 +51,34 @@ export default function BlogPage() {
                     category="Expert Tips"
                     image="/images/blog/routine.png"
                 />
+                <ArticleCard
+                    title="USA Climate Skincare Map"
+                    excerpt="From the humid South to the dry Desert: how to adapt your routine for every US region."
+                    slug="usa-climate-skincare"
+                    category="Regional Care"
+                    image="https://images.unsplash.com/photo-1444464666168-49d633b867ad?w=800&q=80"
+                />
+                <ArticleCard
+                    title="The New US Sunscreen Standards"
+                    excerpt="FDA updates and the latest American-made mineral filters protecting your skin in 2026."
+                    slug="us-sunscreen-standards"
+                    category="SPF Alert"
+                    image="https://images.unsplash.com/photo-1520333789090-1afc82db536a?w=800&q=80"
+                />
+                <ArticleCard
+                    title="Metropolitan Stress & Aging"
+                    excerpt="How air quality in major US cities like NYC and Chicago impacts your skin's biological age."
+                    slug="city-stress-aging"
+                    category="Urban Living"
+                    image="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80"
+                />
+                <ArticleCard
+                    title="At-Home Aesthetics in the US"
+                    excerpt="The top FDA-cleared devices currently trending in American households for clinical results."
+                    slug="usa-home-tech"
+                    category="Tech & Beauty"
+                    image="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&q=80"
+                />
             </div>
         </div>
     );

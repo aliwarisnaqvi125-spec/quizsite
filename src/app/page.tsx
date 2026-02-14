@@ -30,32 +30,32 @@ export default function Home() {
 
         <div className={styles.grid}>
           <ArticleCard
-            title="Beyond Anti-Aging: Skin Longevity in 2026"
+            title="USA Climate Skincare Map"
+            excerpt="From the humid South to the dry Desert: how to adapt your routine for every US region."
+            slug="usa-climate-skincare"
+            category="Regional Care"
+            image="https://images.unsplash.com/photo-1444464666168-49d633b867ad?w=800&q=80"
+          />
+          <ArticleCard
+            title="The New US Sunscreen Standards"
+            excerpt="FDA updates and the latest American-made mineral filters protecting your skin in 2026."
+            slug="us-sunscreen-standards"
+            category="SPF Alert"
+            image="https://images.unsplash.com/photo-1520333789090-1afc82db536a?w=800&q=80"
+          />
+          <ArticleCard
+            title="Metropolitan Stress & Aging"
+            excerpt="How air quality in major US cities like NYC and Chicago impacts your skin's biological age."
+            slug="city-stress-aging"
+            category="Urban Living"
+            image="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80"
+          />
+          <ArticleCard
+            title="Beyond Anti-Aging: Skin Longevity"
             excerpt="The US skincare market is pivoting from fixing damage to regional biological longevity."
             slug="skin-longevity-2026"
             category="Innovation"
             image="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80"
-          />
-          <ArticleCard
-            title="Winter Skincare Survival Guide"
-            excerpt="Dry skin? Discover the best ingredients to lock in moisture during the cold months."
-            slug="winter-skincare"
-            category="Winter Care"
-            image="/images/blog/winter.png"
-          />
-          <ArticleCard
-            title="Summer Glow Without the Damage"
-            excerpt="How to protect your skin from UV rays while enjoying the sun safely."
-            slug="summer-glow"
-            category="Summer Care"
-            image="/images/blog/summer.png"
-          />
-          <ArticleCard
-            title="Top 5 Dermatologist Recommended Routines"
-            excerpt="Simple, effective daily routines for every skin type, approved by experts."
-            slug="derm-routines"
-            category="Expert Tips"
-            image="/images/blog/derm.png"
           />
         </div>
       </section>

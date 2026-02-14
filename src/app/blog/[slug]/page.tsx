@@ -35,7 +35,7 @@ const BLOG_POSTS: Record<string, any> = {
         author: "Dermatology Team",
         category: "Winter Care",
         content: (
-             <>
+            <>
                 <p className="mb-2">
                     Dry skin? Discover the best ingredients to lock in moisture during the cold months. Winter air lacks humidity, which leads to Transepidermal Water Loss (TEWL).
                 </p>
@@ -45,7 +45,80 @@ const BLOG_POSTS: Record<string, any> = {
                 </p>
             </>
         )
+    },
+    'usa-climate-skincare': {
+        title: "USA Climate Skincare Map: Adapting to Your Region",
+        date: "February 14, 2026",
+        author: "Sarah Jenkins",
+        category: "Regional Care",
+        content: (
+            <>
+                <p className="mb-2">
+                    The United States is home to vastly different climates, each posing unique challenges to your skin. A routine that works in the humid Florida heat will likely fail in the dry Arizona desert.
+                </p>
+                <h2 style={{ margin: '2rem 0 1rem' }}>The Pacific Northwest: Combatting Dampness</h2>
+                <p className="mb-2">
+                    While the humidity helps with moisture, the lack of sun can lead to Vitamin D deficiencies that affect skin barrier function. Focus on lightweight hydration and barrier support.
+                </p>
+                <h2 style={{ margin: '2rem 0 1rem' }}>The Northeast: Extreme Seasonality</h2>
+                <p className="mb-2">
+                    Residents in cities like Boston and NYC need two distinct routines. Heavy occlusives in the winter to fight radiator heat, and antioxidant-rich serums in the summer to combat urban smog and high humidity.
+                </p>
+            </>
+        )
+    },
+    'us-sunscreen-standards': {
+        title: "The New US Sunscreen Standards: 2026 Update",
+        date: "February 13, 2026",
+        author: "Dr. Marcus Chen",
+        category: "SPF Alert",
+        content: (
+            <>
+                <p className="mb-2">
+                    For years, American sunscreens lagged behind Europe and Asia. However, 2026 marks a turning point as the FDA has cleared several new innovative filters that provide superior UVA protection without the "white cast."
+                </p>
+                <h2 style={{ margin: '2rem 0 1rem' }}>Why UVA Protection is Crucial</h2>
+                <p className="mb-2">
+                    UVB rays burn, but UVA rays age. New American formulations are now focusing on "broadest spectrum" protection, ensuring that deep-tissue damage is minimized even during long commutes or outdoor activities in high-SPF states like California and Texas.
+                </p>
+            </>
+        )
+    },
+    'city-stress-aging': {
+        title: "Metropolitan Stress: The Biological Cost of City Living",
+        date: "February 12, 2026",
+        author: "Elena Rodriguez",
+        category: "Urban Living",
+        content: (
+            <>
+                <p className="mb-2">
+                    Life in major US hubs like Chicago, LA, and Houston brings more than just a fast-paced lifestyle—it brings environmental stressors that accelerate skin aging.
+                </p>
+                <h2 style={{ margin: '2rem 0 1rem' }}>The Pollution Shield</h2>
+                <p className="mb-2">
+                    Particulate matter from traffic and industrial activity can penetrate pores, leading to oxidative stress. Modern American skincare brands are now incorporating "anti-pollution" ingredients like Ectoin and Malachite to neutralize these free radicals on contact.
+                </p>
+            </>
+        )
+    },
+    'usa-home-tech': {
+        title: "At-Home Aesthetics: The Top US Tech Trends",
+        date: "February 11, 2026",
+        author: "Tech & Beauty Editorial",
+        category: "Tech & Beauty",
+        content: (
+            <>
+                <p className="mb-2">
+                    The US market for home skincare devices has exploded in 2026. FDA-cleared technology that was once exclusive to high-end dermatologists is now available on your bathroom counter.
+                </p>
+                <h2 style={{ margin: '2rem 0 1rem' }}>LED Therapy and Microcurrent</h2>
+                <p className="mb-2">
+                    From Red Light masks to microcurrent devices for "facial fitness," Americans are obsessed with maintaining results between office visits. We explore which devices are actually worth the investment for long-term skin health.
+                </p>
+            </>
+        )
     }
+
 };
 
 export default function BlogPost({ params }: { params: { slug: string } }) {
